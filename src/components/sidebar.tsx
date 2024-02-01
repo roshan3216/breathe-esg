@@ -63,6 +63,7 @@ const SideBar = () =>{
     }
 
     const handleMenuSelect: MenuProps['onClick'] = (e) => {
+        console.log(selectedKeys, '[selectedKeys]');
         setSelectedKeys([e.key]);
         if(e.key ==='logout'){
             dispatch(logoutThunk());
