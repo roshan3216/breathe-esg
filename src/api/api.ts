@@ -1,7 +1,8 @@
 import axios, { AxiosHeaders } from 'axios';
 
 const api = axios.create({
-    baseURL: "http://localhost:9000/internal",
+    // baseURL: "http://localhost:9000/internal",
+    baseURL : 'https://breathe-esg-backend.onrender.com/internal',
     withCredentials: true,
 });
 
