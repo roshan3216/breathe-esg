@@ -1,46 +1,69 @@
-# Getting Started with breathe-esg
+# Breathe esg
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a single page wep app for assessment, ensuring better readability and ui.
 
-## Available Scripts
+# Overview
 
-In the project directory, you can run:
+![alt text](image.png)
 
-### `npm start`
+![alt text](image-1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
+![alt text](image-2.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![alt text](image-3.png)
 
-### `npm test`
+## Login
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. For an overview: 
+    - Login using the sample auth user 
+        - email: admin@gmail.com
+        - password: admin
 
-### `npm run build`
+2. To create a new account go to https://breathe-esg-web.vercel.app/signup from the address bar of the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.JS
+- TypeScript
+- Redux
+- CSS
+- Ant Design (AntD)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Key Features:
 
-### `npm run eject`
+1. **Auth using JWTs:**
+   - Authentication using JSON Web Tokens (JWTs).
+   - Access and refresh token for seamless experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. **State Management using Redux:**
+   - State management using Redux.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Type-Safe JavaScript using TypeScript:**
+   - Utilization of TypeScript for type-safe JavaScript, enhancing code quality and maintainability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+5. **Deployed Frontend:**
+   - The frontend is deployed on Vercel.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+6. **Data export:**
+    - Added feature for exporting the data is a csv format.
 
-## Learn More
+# Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project locally, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/roshan3216/breathe-esg.git
+
+2. Install Dependencies
+    ```bash
+    cd breathe-esg
+    npm install
+
+3. Start the Development Server
+    ```bash
+    npm start
+
+## Deployment
+
+The application is deployed on Vercel. [Link to Vercel Deployment](https://breathe-esg-web.vercel.app/)
